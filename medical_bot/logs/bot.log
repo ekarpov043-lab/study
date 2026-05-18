@@ -1,0 +1,14 @@
+[2026-05-18 13:42:24] [INFO] [__main__] ==================================================
+[2026-05-18 13:42:24] [INFO] [__main__] Starting medical VK bot...
+[2026-05-18 13:42:24] [INFO] [__main__] Creating database tables...
+[2026-05-18 13:42:24] [INFO] [database.connection] Connected to PostgreSQL: db:5432/medical_bot
+[2026-05-18 13:42:24] [INFO] [__main__] Database tables ready.
+[2026-05-18 13:42:24] [INFO] [__main__] Scheduler thread started.
+[2026-05-18 13:42:24] [INFO] [__main__] Bot is running. Listening for messages via Long Poll...
+[2026-05-18 13:42:30] [INFO] [database.queries] New user created: vk_id=602995423, name=Кирилл Медведев
+[2026-05-18 13:42:30] [INFO] [handlers.base_handler] MSG from vk_id=602995423 state=start text=🎯 Мои челленджи
+[2026-05-18 13:42:30] [INFO] [handlers.registration] User 602995423 started onboarding
+[2026-05-18 13:42:33] [INFO] [handlers.base_handler] MSG from vk_id=602995423 state=onboarding_id text=🔙 В меню
+[2026-05-18 13:42:38] [INFO] [handlers.base_handler] MSG from vk_id=602995423 state=main_menu text=📊 Мой прогресс
+[2026-05-18 13:42:38] [INFO] [handlers.base_handler] vk_id=602995423 -> profile
+[2026-05-18 13:42:43] [INFO] [handlers.base_handler] MSG from vk_id=602995423 state=main_menu text=💊 Здоровье сегодня
