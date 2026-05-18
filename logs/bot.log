@@ -1,0 +1,89 @@
+[2026-05-18 12:29:12] [INFO] [__main__] ==================================================
+[2026-05-18 12:29:12] [INFO] [__main__] Starting medical VK bot...
+[2026-05-18 12:29:12] [INFO] [__main__] Creating database tables...
+[2026-05-18 12:29:12] [INFO] [database.connection] Connected to PostgreSQL: localhost:5432/medical_bot
+[2026-05-18 12:29:12] [INFO] [__main__] Database tables ready.
+[2026-05-18 12:29:12] [CRITICAL] [__main__] MessageRouter init failed: 'VkApi' object has no attribute 'longpoll'
+[2026-05-18 12:29:31] [INFO] [__main__] ==================================================
+[2026-05-18 12:29:31] [INFO] [__main__] Starting medical VK bot...
+[2026-05-18 12:29:31] [INFO] [__main__] Creating database tables...
+[2026-05-18 12:29:31] [INFO] [database.connection] Connected to PostgreSQL: localhost:5432/medical_bot
+[2026-05-18 12:29:31] [INFO] [__main__] Database tables ready.
+[2026-05-18 12:29:32] [INFO] [__main__] Scheduler thread started.
+[2026-05-18 12:29:32] [INFO] [__main__] Bot is running. Listening for messages via Long Poll...
+[2026-05-18 12:30:10] [INFO] [__main__] ==================================================
+[2026-05-18 12:30:10] [INFO] [__main__] Starting medical VK bot...
+[2026-05-18 12:30:10] [INFO] [__main__] Creating database tables...
+[2026-05-18 12:30:10] [INFO] [database.connection] Connected to PostgreSQL: localhost:5432/medical_bot
+[2026-05-18 12:30:10] [INFO] [__main__] Database tables ready.
+[2026-05-18 12:30:10] [INFO] [__main__] Scheduler thread started.
+[2026-05-18 12:30:10] [INFO] [__main__] Bot is running. Listening for messages via Long Poll...
+[2026-05-18 12:36:29] [INFO] [__main__] ==================================================
+[2026-05-18 12:36:29] [INFO] [__main__] Starting medical VK bot...
+[2026-05-18 12:36:29] [INFO] [__main__] Creating database tables...
+[2026-05-18 12:36:29] [INFO] [database.connection] Connected to PostgreSQL: localhost:5432/medical_bot
+[2026-05-18 12:36:29] [INFO] [__main__] Database tables ready.
+[2026-05-18 12:36:29] [INFO] [__main__] Scheduler thread started.
+[2026-05-18 12:36:29] [INFO] [__main__] Bot is running. Listening for messages via Long Poll...
+[2026-05-18 12:37:07] [INFO] [database.queries] New user created: vk_id=602995423, name=Кирилл Медведев
+[2026-05-18 12:37:07] [INFO] [handlers.base_handler] MSG from vk_id=602995423 state=start text=Начать
+[2026-05-18 12:37:07] [INFO] [handlers.registration] User 602995423 started onboarding
+[2026-05-18 12:37:14] [INFO] [handlers.base_handler] MSG from vk_id=602995423 state=onboarding_id text=🔙 В меню
+[2026-05-18 12:37:19] [INFO] [handlers.base_handler] MSG from vk_id=602995423 state=main_menu text=🎯 Мои челленджи
+[2026-05-18 12:37:31] [INFO] [handlers.base_handler] MSG from vk_id=602995423 state=main_menu text=💊 Здоровье сегодня
+[2026-05-18 12:37:33] [INFO] [handlers.base_handler] MSG from vk_id=602995423 state=main_menu text=🎁 Мои скидки
+[2026-05-18 12:37:40] [INFO] [handlers.base_handler] MSG from vk_id=602995423 state=discount_list text=🔙 В меню
+[2026-05-18 12:37:44] [INFO] [handlers.base_handler] MSG from vk_id=602995423 state=main_menu text=📊 Мой прогресс
+[2026-05-18 12:37:44] [INFO] [handlers.base_handler] vk_id=602995423 -> profile
+[2026-05-18 12:37:46] [INFO] [handlers.base_handler] MSG from vk_id=602995423 state=main_menu text=🏆 Достижения
+[2026-05-18 12:37:48] [INFO] [handlers.base_handler] MSG from vk_id=602995423 state=achievements text=🔙 В меню
+[2026-05-18 12:37:50] [INFO] [handlers.base_handler] MSG from vk_id=602995423 state=main_menu text=ℹ️ Помощь
+[2026-05-18 12:38:22] [INFO] [handlers.base_handler] MSG from vk_id=602995423 state=main_menu text=Старт
+[2026-05-18 12:38:28] [INFO] [handlers.base_handler] MSG from vk_id=602995423 state=main_menu text=ℹ️ Помощь
+[2026-05-18 12:39:38] [INFO] [database.queries] New user created: vk_id=285810337, name=Егор Карпов
+[2026-05-18 12:39:38] [INFO] [handlers.base_handler] MSG from vk_id=285810337 state=start text=Начать
+[2026-05-18 12:39:38] [INFO] [handlers.registration] User 285810337 started onboarding
+[2026-05-18 12:39:47] [INFO] [handlers.base_handler] MSG from vk_id=285810337 state=onboarding_id text=ТЕСТ
+[2026-05-18 12:39:47] [INFO] [handlers.registration] User 285810337 chose TEST -> patient vk_id=444
+[2026-05-18 12:39:58] [INFO] [handlers.base_handler] MSG from vk_id=602995423 state=main_menu text=Начать
+[2026-05-18 12:39:59] [INFO] [handlers.base_handler] MSG from vk_id=285810337 state=onboarding_confirm text=✅ Да, это я
+[2026-05-18 12:39:59] [INFO] [handlers.registration] User 285810337 confirmed as Елена Новикова
+[2026-05-18 12:40:02] [INFO] [handlers.base_handler] MSG from vk_id=602995423 state=main_menu text=🎯 Мои челленджи
+[2026-05-18 12:40:26] [INFO] [__main__] Bot stopped by user (Ctrl+C).
+[2026-05-18 12:45:26] [INFO] [__main__] ==================================================
+[2026-05-18 12:45:26] [INFO] [__main__] Starting medical VK bot...
+[2026-05-18 12:45:26] [INFO] [__main__] Creating database tables...
+[2026-05-18 12:45:26] [INFO] [database.connection] Connected to PostgreSQL: localhost:5432/medical_bot
+[2026-05-18 12:45:26] [INFO] [__main__] Database tables ready.
+[2026-05-18 12:45:26] [INFO] [__main__] Scheduler thread started.
+[2026-05-18 12:45:26] [INFO] [__main__] Bot is running. Listening for messages via Long Poll...
+[2026-05-18 12:45:34] [INFO] [handlers.base_handler] MSG from vk_id=602995423 state=main_menu text=Начать
+[2026-05-18 12:45:38] [INFO] [handlers.base_handler] MSG from vk_id=602995423 state=main_menu text=📝 Регистрация
+[2026-05-18 12:45:38] [INFO] [handlers.registration] User 602995423 started onboarding
+[2026-05-18 12:45:45] [INFO] [handlers.base_handler] MSG from vk_id=602995423 state=onboarding_id text=ТЕСТ
+[2026-05-18 12:45:45] [INFO] [handlers.registration] User 602995423 chose TEST -> patient vk_id=333
+[2026-05-18 12:45:51] [INFO] [handlers.base_handler] MSG from vk_id=602995423 state=onboarding_confirm text=✅ Да, это я
+[2026-05-18 12:45:51] [INFO] [handlers.registration] User 602995423 confirmed as Алексей Козлов
+[2026-05-18 12:45:55] [INFO] [handlers.base_handler] MSG from vk_id=602995423 state=onboarding_height text=175
+[2026-05-18 12:45:55] [INFO] [handlers.registration] User 602995423 registered: height=175, challenges=3, diseases=['ИБС', 'после инфаркта']
+[2026-05-18 12:46:06] [INFO] [handlers.base_handler] MSG from vk_id=602995423 state=main_menu text=🎯 Мои челленджи
+[2026-05-18 12:46:07] [INFO] [handlers.base_handler] vk_id=602995423 -> challenges
+[2026-05-18 12:46:10] [INFO] [handlers.base_handler] MSG from vk_id=602995423 state=challenge_main text=✅ Отметить выполнение
+[2026-05-18 12:46:21] [INFO] [handlers.base_handler] MSG from vk_id=602995423 state=challenge_mark text=2
+[2026-05-18 12:46:26] [INFO] [handlers.base_handler] MSG from vk_id=602995423 state=challenge_main text=📋 Все доступные
+[2026-05-18 12:46:41] [INFO] [handlers.base_handler] MSG from vk_id=602995423 state=challenge_take text=возьми 4
+[2026-05-18 12:46:51] [INFO] [handlers.base_handler] MSG from vk_id=602995423 state=challenge_main text=✅ Отметить выполнение
+[2026-05-18 12:46:56] [INFO] [handlers.base_handler] MSG from vk_id=602995423 state=challenge_mark text=🔙 В меню
+[2026-05-18 12:46:58] [INFO] [handlers.base_handler] MSG from vk_id=602995423 state=main_menu text=🎯 Мои челленджи
+[2026-05-18 12:46:59] [INFO] [handlers.base_handler] vk_id=602995423 -> challenges
+[2026-05-18 12:47:00] [INFO] [handlers.base_handler] MSG from vk_id=602995423 state=challenge_main text=✅ Отметить выполнение
+[2026-05-18 12:47:11] [INFO] [handlers.base_handler] MSG from vk_id=602995423 state=challenge_mark text=4
+[2026-05-18 12:47:21] [INFO] [handlers.base_handler] MSG from vk_id=602995423 state=challenge_main text=🔙 В меню
+[2026-05-18 12:47:24] [INFO] [handlers.base_handler] MSG from vk_id=602995423 state=main_menu text=🎁 Мои скидки
+[2026-05-18 12:47:30] [INFO] [handlers.base_handler] MSG from vk_id=602995423 state=discount_list text=🔙 В меню
+[2026-05-18 12:47:32] [INFO] [handlers.base_handler] MSG from vk_id=602995423 state=main_menu text=📊 Мой прогресс
+[2026-05-18 12:47:33] [INFO] [handlers.base_handler] vk_id=602995423 -> profile
+[2026-05-18 12:47:38] [INFO] [handlers.base_handler] MSG from vk_id=602995423 state=main_menu text=🏆 Достижения
+[2026-05-18 12:47:46] [INFO] [handlers.base_handler] MSG from vk_id=602995423 state=achievements text=🔙 В меню
+[2026-05-18 12:47:49] [INFO] [handlers.base_handler] MSG from vk_id=602995423 state=main_menu text=ℹ️ Помощь
+[2026-05-18 13:21:00] [INFO] [__main__] Bot stopped by user (Ctrl+C).

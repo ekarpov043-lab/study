@@ -1,0 +1,14 @@
+# Зависимости для VK чат-бота медицинской организации
+# Установка: pip install -r requirements.txt
+
+# VK API — библиотека для работы с VK (Long Poll, отправка сообщений)
+vk-api>=11.10
+
+# psycopg2-binary — драйвер для подключения к PostgreSQL
+psycopg2-binary>=2.9.9
+
+# python-dotenv — загрузка переменных окружения из .env файла
+python-dotenv>=1.0
+
+# requests — HTTP-запросы (используется vk-api)
+requests>=2.31
